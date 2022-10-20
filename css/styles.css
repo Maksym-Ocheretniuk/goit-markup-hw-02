@@ -1,0 +1,70 @@
+/* основний колір тексту #212121 */
+/* колір тексту параграфів #757575 */
+/* колір наведення-акценту #2196F3 */
+/* білий #FFFFFF */
+
+:root {
+	--primary-text-color: #212121;
+	--second-text-color: #757575;
+	--accent-color: #2196f3;
+	--primary-white-color: #ffffff;
+	--letter-spacing-standart: 0.03em;
+}
+
+body {
+	background-color: var(--primary-white-color);
+	font-family: "Roboto", Verdana, sans-serif;
+	color: var(--primary-text-color);
+}
+
+/* прибираємо підкреслення посилання */
+.link {
+    text-decoration: none;
+} 
+
+/* прибираємо маркери списку */
+.list {
+    list-style: none;
+}
+
+
+/* -----------------HEADER----------------- */
+
+.logo {
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: calc(31 / 26);
+	color: #000000;
+}
+
+.logo-web {
+    color: #2196F3;
+}
+
+.nav-list {
+    color: var(--primary-text-color);
+}
+
+.nav-list-active {
+    color: var(--accent-color);    
+}
+
+.nav-list:hover,
+.nav-list:focus {
+    color: var(--accent-color);
+}
+
+.header-list-contact {
+    color: var(--second-text-color);
+}
+.header-list-contact:hover,
+.header-list-contact:focus {
+    color: var(--accent-color);
+}
+
+/* -----------------HERO----------------- */
+
+
+
